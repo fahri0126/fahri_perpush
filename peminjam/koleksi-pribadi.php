@@ -23,7 +23,7 @@ $user = $_SESSION['login']['UserID'];
 <div class="content pt-5">
     <div class="container">
 
-    <div class="row justify-content-center">
+    <div class="row">
         <?php foreach($row as $rows) : ?>
             <div class="card col-md-3 mx-1">
                 <div class="card-body">

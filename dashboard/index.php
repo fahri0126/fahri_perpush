@@ -80,7 +80,7 @@
         <!-- /.row -->
 
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-6">
             <div class="card">
               <div class="card-header">
                 <h5 class="card-title">Grafik Peminjaman (1 Minggu)</h5>
@@ -95,10 +95,6 @@
                     </button>
                     <div class="dropdown-menu dropdown-menu-right" role="menu">
                       <a href="#" class="dropdown-item">Action</a>
-                      <a href="#" class="dropdown-item">Another action</a>
-                      <a href="#" class="dropdown-item">Something else here</a>
-                      <a class="dropdown-divider"></a>
-                      <a href="#" class="dropdown-item">Separated link</a>
                     </div>
                   </div>
                   <button type="button" class="btn btn-tool" data-card-widget="remove">
@@ -107,15 +103,10 @@
                 </div>
               </div>
               <!-- /.card-header -->
-              <div class="card-body">
+              <div class="card-body col-md-12">
                 <div class="row">
                   <div class="col-md-12">
-                    <p class="text-center">
-                      <!-- <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong> -->
-                    </p>
-
-                    <div class="chart col-md-w-50">
-                      <!-- Sales Chart Canvas -->
+                    <div class="chart">
                       <canvas id="myChart"></canvas>
                     </div>
                     <!-- /.chart-responsive -->

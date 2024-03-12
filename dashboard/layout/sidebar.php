@@ -101,7 +101,7 @@ $user = $_SESSION["login"]["Username"];
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../controller/logout.php" class="nav-link">
+                    <a href="../controller/logout.php" class="nav-link" onclick="return confirm('Logout ?')">
                     <i class="nav-icon fas fa-sign-out-alt"></i>
                         <p>
                             Logout

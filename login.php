@@ -1,8 +1,6 @@
 <?php
 require_once "controller/auth.php";
 
-// session_destroy();
-
 isset($_SESSION['login']) ? exit(header("location:dashboard/index.php")) : '';
 
 $auth = new Auth();
